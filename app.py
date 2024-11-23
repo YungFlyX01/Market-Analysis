@@ -56,6 +56,35 @@ with col3:
     total_ad_spend = filtered_df['AdSpend'].sum()
     st.metric("Total Ad Spend (USD)", f"${total_ad_spend:,.2f}")
 
+
+
+st.sidebar.markdown("### Data Source and License")
+st.sidebar.markdown("""
+This app uses the **Predict Conversion in Digital Marketing Dataset** by **Rabie El Kharoua**, available under the [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+
+Dataset URL: [Kaggle Dataset](https://www.kaggle.com/datasets/rabieelkharoua/predict-conversion-in-digital-marketing-dataset/data)
+
+Changes made: The dataset was cleaned by removing missing values, irrelevant columns, and duplicates.
+
+You are free to:
+- Share, copy, and redistribute the material.
+- Adapt, remix, and build upon it for any purpose, including commercial use.
+
+Please see the full terms of the license [here](https://creativecommons.org/licenses/by/4.0/).
+""")
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Bar Charts & Line Charts in separate columns
 col11, col12 = st.columns(2)
 
