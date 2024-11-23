@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
-import seaborn as sns
+
 
 # Data cleaning
 df = pd.read_csv('digital_marketing_campaign_dataset.csv')
