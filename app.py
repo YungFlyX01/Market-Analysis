@@ -65,12 +65,6 @@ This app uses the **Predict Conversion in Digital Marketing Dataset** by **Rabie
 Dataset URL: [Kaggle Dataset](https://www.kaggle.com/datasets/rabieelkharoua/predict-conversion-in-digital-marketing-dataset/data)
 
 Changes made: The dataset was cleaned by removing missing values, irrelevant columns, and duplicates.
-
-You are free to:
-- Share, copy, and redistribute the material.
-- Adapt, remix, and build upon it for any purpose, including commercial use.
-
-Please see the full terms of the license [here](https://creativecommons.org/licenses/by/4.0/).
 """)
 
 
