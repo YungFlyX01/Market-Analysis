@@ -17,7 +17,7 @@ df = df.drop_duplicates()
 df = df.drop(["AdvertisingPlatform", "AdvertisingTool"], axis=1)
 
 st.set_page_config(page_title='Digital Marketing Campaign Analysis', initial_sidebar_state='expanded', layout='wide')
-st.title("Conversion Data Analysis")
+st.title("Analyze and Predict Customer Conversion in Digital Marketing")
 
 # Filters in the sidebar
 st.sidebar.header("Filters")
