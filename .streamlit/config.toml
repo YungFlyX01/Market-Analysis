@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#0071E3"  # Apple-inspired blue (used in buttons, links)
+backgroundColor = "#F4F4F7"  # Light grey background, typical of Apple's design
+secondaryBackgroundColor = "#FFFFFF"  # Clean white sidebar
+textColor = "#1D1D1F"  # Dark grey text, providing high contrast against the light background
+font = "sans serif"  # Consistent with Apple's sleek, modern fonts
